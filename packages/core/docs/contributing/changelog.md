@@ -10,7 +10,8 @@
 - changed default logging level to 'warn' and 'error' in development and production mode respectively ([#5304](https://github.com/DivanteLtd/vue-storefront/issues/5304))
 - fixed broken focus in login form ([#5273](https://github.com/DivanteLtd/vue-storefront/issues/5273))
 - fixed select for changing variant on product page ([#5281](https://github.com/DivanteLtd/vue-storefront/issues/5281))
-- [BREAKING] loadWishlist, loadUser, loadCart renamed to `load` ([#5285](https://github.com/DivanteLtd/vue-storefront/issues/5285))
+- [BREAKING] loadWishlist, loadUser, loadCart renamed to `load`. Old values will be marked as deprecated ([#5285](https://github.com/DivanteLtd/vue-storefront/issues/5285))
+- [BREAKING] customQuery is or is in object in the second argument. If used in the third one it will be marked as deprecated ([#5285](https://github.com/DivanteLtd/vue-storefront/issues/5285))
 
 ## 2.0.12
 
